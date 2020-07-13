@@ -38,7 +38,7 @@ class Test{
        String firstName=br.readLine();
        String lastName=br.readLine();
        String dept=br.readLine();
-       EmailAdmin obj=new EmailAdmin(firstName,lastName,dept);
+       Admin obj=new Admin(firstName,lastName,dept);
        obj.getDetails();
      
    }
